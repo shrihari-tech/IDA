@@ -1,0 +1,46 @@
+.darkbg{
+    width:1536px;
+}
+
+.service-container {
+    position: relative;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 20%; 
+    left: 15%; 
+    transform: translate(-50%, -50%);
+    color: white; 
+    padding: 10px; 
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.text_overlay {
+    position: absolute;
+    top: 200px; 
+    left: 55%; 
+    transform: translate(-50%, -50%);
+    color: white; 
+    padding: 10px; 
+    font-size: 30px;
+    text-align: center;
+}
+
+.logoes {
+    position: absolute;
+    top: 550px; 
+    left: 25%; 
+    transform: translate(-50%, -50%);
+    color: white; 
+    padding: 10px; 
+    font-size: 20px;
+    text-align: center;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 150px;
+}
+
+

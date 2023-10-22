@@ -1,0 +1,49 @@
+
+
+h1:nth-child(1){
+    font-size: 60px;
+    position: absolute;
+    left: 145px;
+    
+}
+h1:nth-child(2){
+    font-size: 60px;
+    position: absolute;
+    padding-top: 75px;
+    left: 145px;
+    
+}
+
+/* h1:nth-child(3){
+    font-size: 70px;
+} */
+h1:nth-child(4){
+    font-size: 70px;
+    padding-top: 20px;
+}
+
+h1:nth-child(5){
+    font-size:70px;
+
+}
+
+h1:nth-child(6){
+    font-size: 70px;
+    padding-top:150px;
+}
+
+h1:nth-child(7){
+    font-size: 70px;
+}
+.anime{
+    padding-top: 200px;
+}
+
+.grass{
+    padding-top:200px;
+}
+
+.flexbox{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}

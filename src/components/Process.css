@@ -1,0 +1,54 @@
+.dark-section {
+    background-color: #1E2026; 
+    height: 1100px;
+}
+
+h1:nth-child(1){
+    color: white;
+    font-size:20px;
+    position: absolute;
+    left:695px;
+    padding-top: 20px;
+}
+
+h1:nth-child(2){
+    color: white;
+    font-size:40px;
+    position: absolute;
+    left:610px;
+    padding-top: 80px;
+}
+
+h1:nth-child(3){
+    color: white;
+    font-size:40px;
+    position: absolute;
+    left:320px;
+    padding-top: 150px;
+}
+
+.work_flow{
+    position: absolute;
+    color: white;
+    left:550px;
+    margin-top: 70px;
+    background-color: #AED064;
+    border-radius: 20px;
+    transform: rotate(-20deg);
+    
+}
+
+.flexBox{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 300px;
+}
+
+.flexData{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-top: 100px;
+    color: white;
+    font-size: 20px;
+}
+

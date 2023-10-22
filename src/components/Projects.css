@@ -1,0 +1,50 @@
+.dark-section {
+    background-color: #1E2026; 
+    height: 990px;
+}
+
+h1:nth-child(1){
+    color: white;
+    position: absolute;
+    left: 700px;
+    font-size: 20px;
+}
+
+h1:nth-child(2){
+    color: white;
+    position: absolute;
+    left:160px;
+    padding-top: 100px;
+    font-size: 20px;;
+}
+
+.project-list{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+    padding-top:190px;
+}
+
+.view{
+    width: 239px;
+    height: 86px;
+    flex-shrink: 0;
+    background-color: #00FF38;
+    color: white;
+    font-size:20px;
+    margin-top: 100px;
+}
+
+.color{
+    /* width: 1617px; */
+    height: 750px;
+    flex-shrink: 0;
+    /* fill: linear-gradient(180deg, rgba(128, 140, 255, 0.36) 0%, #F280FF 100%); */
+    background-image: linear-gradient(rgba(128, 140, 255, 0.36) 0%, #F280FF 100%);
+}
+
+.man{
+    position: absolute;
+    left:20px;
+    padding-top:100px;
+}
