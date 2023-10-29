@@ -18,13 +18,13 @@ function Whyus(){
     ])
     return(
         <div>
-            <h1>We Design</h1>
-            <h1>Animat Amaze</h1>
+            <div className="wedesign">We Design</div>
+            <div className="animate">Animat Amaze</div>
             <img src="anime.png" alt="anime" className="anime"/>
-            <h1>Creative</h1>
-            <h1>Design</h1>
-            <h1>Outstanding</h1>
-            <h1>Animation</h1>
+            <div className="creative">Creative</div>
+            <div className="design">Design</div>
+            <div className="outstadning">Outstanding</div>
+            <div className="animation">Animation</div>
             <img src="grass.png" alt="grass" className="grass"/>
             <div className="flexbox">
                 {cards.map((card)=>(

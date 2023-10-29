@@ -1,12 +1,12 @@
 
 
-h1:nth-child(1){
+.wedesign{
     font-size: 60px;
     position: absolute;
     left: 145px;
     
 }
-h1:nth-child(2){
+.animate{
     font-size: 60px;
     position: absolute;
     padding-top: 75px;
@@ -17,22 +17,22 @@ h1:nth-child(2){
 /* h1:nth-child(3){
     font-size: 70px;
 } */
-h1:nth-child(4){
+.creative{
     font-size: 70px;
     padding-top: 20px;
 }
 
-h1:nth-child(5){
+.design{
     font-size:70px;
 
 }
 
-h1:nth-child(6){
+.outstadning{
     font-size: 70px;
     padding-top:150px;
 }
 
-h1:nth-child(7){
+.animation{
     font-size: 70px;
 }
 .anime{

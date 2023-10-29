@@ -1,0 +1,41 @@
+.footer_bg{
+    background: #1E2026;
+    height: 428px;
+    flex-shrink: 0;
+}
+
+.ida_footer{
+    position: absolute;
+    padding-top: 150px;
+    left:150px;
+}
+
+.services {
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+    padding-top: 150px;
+    justify-content: space-around;
+}
+
+.support {
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left:885px;
+    justify-content: space-around;
+}
+
+.facebook{
+    position: absolute;
+    left:150px;
+    padding-top: 50px;
+}
+
+
+.instagram{
+    position: absolute;
+    padding-top: 50px;
+    left:250px;
+}

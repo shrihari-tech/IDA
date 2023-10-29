@@ -60,9 +60,9 @@ function Process(){
     ])
     return(
         <div className="dark-section">
-            <h1>OUR PROCESS </h1>
-            <h1>Working Process </h1>
-            <h1>A well-structured workflow with great design execution.</h1>
+            <div className="ourprocess">OUR PROCESS </div>
+            <div className="working">Working Process </div>
+            <div className="sentence">A well-structured workflow with great design execution.</div>
             <img src="Work_flow.png" alt="work" className="work_flow"></img>
             <div className="flexBox">
                 {cards.map((card) => (

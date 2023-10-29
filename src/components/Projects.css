@@ -1,16 +1,17 @@
 .dark-section {
     background-color: #1E2026; 
-    height: 990px;
+    height: 1100px;
 }
 
-h1:nth-child(1){
+.projects{
+    margin-top: 20px;
     color: white;
-    position: absolute;
-    left: 700px;
-    font-size: 20px;
+    position: relative;
+    left: 40px;
+    font-size: 80px;
 }
 
-h1:nth-child(2){
+.project_sentence{
     color: white;
     position: absolute;
     left:160px;
@@ -33,6 +34,7 @@ h1:nth-child(2){
     color: white;
     font-size:20px;
     margin-top: 100px;
+    cursor: pointer;
 }
 
 .color{
@@ -47,4 +49,89 @@ h1:nth-child(2){
     position: absolute;
     left:20px;
     padding-top:100px;
+}
+
+.intern{
+    position: absolute;
+    left:150px;
+    display: flex;
+    width: 250px;
+    height: 58px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border: 2px solid #000;
+    background: #FFF;
+    box-shadow: -6px 6px 0px 0px #000;
+    display: flex;
+    padding: 16px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #000;
+    font-family: "Quantum";
+    font-size: 80px;
+    font-style:italic;
+    font-weight: 400;
+    line-height: 100%
+}
+
+.para{
+    position: absolute;
+    width: 750px;
+    margin-top: 170px;
+    margin-left: 580px;
+    justify-content: center;
+    align-items: center;
+    border:2px solid #000;
+    background:#FFF;
+    box-shadow: -6px 6px 0px 0px #000;
+    display: flex;
+    padding: 16px 18px;
+    gap:10px;
+    color: #000;
+    font-family:"Quantum";
+    font-size: 35px;
+    font-weight: 400;
+    line-height:100%;
+}
+
+.explore{
+    width: 150px;
+    height: 40px;
+    margin-top: 580px;
+    margin-left: 5px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    position: absolute;
+    background: #000;
+    color: #FFF;
+    font-family: 'Orbitron';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 2px;
+    cursor: pointer;
+
+}
+
+.apply{
+    width: 150px;
+    height: 40px;
+    margin-top: 580px;
+    margin-left: 250px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    position: absolute;
+    background: blue;
+    color: #FFF;
+    font-family: 'Orbitron';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 2px;
+    cursor: pointer;
 }

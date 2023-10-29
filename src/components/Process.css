@@ -3,34 +3,34 @@
     height: 1100px;
 }
 
-h1:nth-child(1){
-    color: white;
-    font-size:20px;
+.ourprocess{
+    color:white;
+    font-size:40px;
     position: absolute;
-    left:695px;
+    margin-left: 620px;
     padding-top: 20px;
 }
 
-h1:nth-child(2){
+.working{
     color: white;
-    font-size:40px;
+    font-size:70px;
     position: absolute;
-    left:610px;
-    padding-top: 80px;
+    left:490px;
+    padding-top: 100px;
 }
 
-h1:nth-child(3){
+.sentence{
     color: white;
     font-size:40px;
     position: absolute;
     left:320px;
-    padding-top: 150px;
+    padding-top: 200px;
 }
 
 .work_flow{
     position: absolute;
     color: white;
-    left:550px;
+    left:450px;
     margin-top: 70px;
     background-color: #AED064;
     border-radius: 20px;
