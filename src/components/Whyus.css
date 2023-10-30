@@ -44,6 +44,9 @@
 }
 
 .flexbox{
+    padding-top:20px;
     display:grid;
     grid-template-columns: repeat(3,1fr);
+    gap:50px;
+    padding-left: 80px;
 }

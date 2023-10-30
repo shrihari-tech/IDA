@@ -32,7 +32,7 @@
 .logoes {
     position: absolute;
     top: 550px; 
-    left: 25%; 
+    left: 50%; 
     transform: translate(-50%, -50%);
     color: white; 
     padding: 10px; 
@@ -40,7 +40,7 @@
     text-align: center;
     display:grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 150px;
+    gap: 190px;
 }
 
 

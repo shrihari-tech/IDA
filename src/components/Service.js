@@ -26,6 +26,20 @@ function Service(){
             id:5,
             logo:"ARVR_design.png",
             text:"AR/VR Design"
+        },{
+            id:6,
+            logo:"3d_modeling.png",
+            text:"3D Modelings"
+        },
+        {
+            id:7,
+            logo:"unreal.png",
+            text:"Unreal Development"
+        },
+        {
+            id:8,
+            logo:"animation_logo.png",
+            text:"Animation"
         }
 
     ])
