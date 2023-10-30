@@ -1,6 +1,6 @@
 .dark-section {
     background-color: #1E2026; 
-    height: 1100px;
+    height: 1200px;
 }
 
 .ourprocess{
@@ -38,7 +38,7 @@
     
 }
 
-.flexBox{
+.flexBox_diamond{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     padding-top: 300px;

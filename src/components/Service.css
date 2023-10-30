@@ -11,6 +11,7 @@
     top: 20%; 
     left: 15%; 
     transform: translate(-50%, -50%);
+    font-family: 'Plus Jakarta Sans';
     color: white; 
     padding: 10px; 
     font-size: 50px;
@@ -18,7 +19,7 @@
 }
 
 
-.text_overlay {
+.data_overlay {
     position: absolute;
     top: 200px; 
     left: 55%; 
@@ -27,7 +28,10 @@
     padding: 10px; 
     font-size: 30px;
     text-align: center;
+    width: 1206px;
 }
+
+
 
 .logoes {
     position: absolute;
@@ -40,7 +44,21 @@
     text-align: center;
     display:grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 190px;
+    gap: 150px;
+}
+
+.cap{
+    position: absolute;
+    top: 30%; 
+    left: 55%; 
+    transform: translate(-50%, -50%);
+    font-family: 'Plus Jakarta Sans';
+    color: white; 
+    padding: 10px; 
+    font-size: 20px;
+    width:1206px;
+    /* text-align: center; */
+
 }
 
 

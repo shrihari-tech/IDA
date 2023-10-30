@@ -16,9 +16,9 @@ function Footer(){
                     <li className="support-item">FAQ</li>
                     <li className="support-item">Contact Us</li>
                 </ul>
-                {/* <ul className="Company">Company
+                <ul className="Company">Company
                     <li className="company-item">About Us</li>
-                </ul> */}
+                </ul>
                 <img src="facebook_icon.png" alt="facebook" className="facebook"></img>
                 <img src="instagram.png" alt="instagram" className="instagram"></img>
             </div>

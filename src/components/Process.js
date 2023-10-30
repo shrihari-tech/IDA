@@ -64,7 +64,7 @@ function Process(){
             <div className="working">Working Process </div>
             <div className="sentence">A well-structured workflow with great design execution.</div>
             <img src="Work_flow.png" alt="work" className="work_flow"></img>
-            <div className="flexBox">
+            <div className="flexBox_diamond">
                 {cards.map((card) => (
                     <div key={card.id} className="card">
                         <img src={card.logo} alt={`Card ${card.id}`} />

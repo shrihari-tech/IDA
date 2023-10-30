@@ -26,6 +26,10 @@
     padding-top:190px;
 }
 
+.project_cards{
+    width: 382px;
+}   
+
 .view{
     width: 239px;
     height: 86px;
@@ -70,7 +74,7 @@
     align-items: center;
     gap: 10px;
     color: #000;
-    font-family: "Quantum";
+    font-family: 'quantico';
     font-size: 80px;
     font-style:italic;
     font-weight: 400;

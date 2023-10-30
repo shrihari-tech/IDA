@@ -26,7 +26,8 @@ function Service(){
             id:5,
             logo:"ARVR_design.png",
             text:"AR/VR Design"
-        },{
+        },
+        {
             id:6,
             logo:"3d_modeling.png",
             text:"3D Modelings"
@@ -48,8 +49,9 @@ function Service(){
             <img src="darkbg.png" alt="darkbg" className="darkbg"></img>
             <div className="text-overlay">The service <br/>we provide        
             </div>
-            <div className="text_overlay">Unleash your creativity and let your imagination soar with our world-class animation services and expert team.
+            <div className="data_overlay">Unleash your creativity and let your imagination soar<br/> with our world-class animation services and expert team.
             </div>
+            <div className="cap">Captivating stories come to life through our animations, making every moment an unforgettable visual experience</div>
             <div className="logoes">
                 {badges.map((badge) => (
                     <div key={badge.id} className="badge" style={badge.position}>

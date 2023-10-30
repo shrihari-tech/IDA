@@ -18,8 +18,9 @@ function Whyus(){
     ])
     return(
         <div>
-            <div className="wedesign">We Design</div>
-            <div className="animate">Animat Amaze</div>
+            <div className="we">We</div>
+            <div className="design_data">Design</div>
+            <div className="animate">Animate Amaze</div>
             <img src="anime.png" alt="anime" className="anime"/>
             <div className="creative">Creative</div>
             <div className="design">Design</div>
@@ -30,7 +31,7 @@ function Whyus(){
                 {cards.map((card)=>(
                 <div key={card.id}>
                     <img src={card.design} alt={card.design} />
-                    <p>{card.text}</p>
+                    <p className="text">{card.text}</p>
                 </div>       
                 ))
             }

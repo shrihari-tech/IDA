@@ -19,11 +19,22 @@
 }
 
 .support {
+    margin-top: -150px;
     list-style-type: none;
     color: white;
     font-size: 20px;
     position: absolute;
     left:885px;
+    justify-content: space-around;
+}
+
+.Company{
+    margin-top: -150px;
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left:1100px;
     justify-content: space-around;
 }
 

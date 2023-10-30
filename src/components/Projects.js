@@ -41,7 +41,7 @@ function Projects(){
                 <div className="project-list">
                     {projects.map((project) => (
                         <div key={project.id}>
-                            <img src={project.img} alt={project.text} />
+                            <img src={project.img} alt={project.text} className="project_cards" />
                         </div>
                     ))}
                 </div>
