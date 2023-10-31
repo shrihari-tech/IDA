@@ -1,5 +1,6 @@
 .darkbg{
     width:1536px;
+    max-width: 100%;
 }
 
 .service-container {
@@ -57,8 +58,39 @@
     padding: 10px; 
     font-size: 20px;
     width:1206px;
-    /* text-align: center; */
 
 }
+
+.badge-logo{
+    max-width: 100%;
+}
+
+@media (max-width: 767px){
+    .text-overlay {
+        position: absolute;
+        top: 20%; 
+        left: 45%; 
+        transform: translate(-50%, -50%);
+        font-family: 'Plus Jakarta Sans';
+        color: white; 
+        padding: 10px; 
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .data_overlay{
+        position: absolute;
+        margin-top: 10px;
+    }
+
+    .cap{
+        margin-top: 200px;
+    }
+    .darkbg{
+        max-width: fit-content;
+        /* max-width: 100%; */
+    }
+}
+
 
 

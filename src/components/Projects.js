@@ -45,7 +45,7 @@ function Projects(){
                         </div>
                     ))}
                 </div>
-                <button className="view">VIEW ALL</button>
+                {/* <button className="view">VIEW ALL</button> */}
             </div>
             <div>
                 <div className="color">

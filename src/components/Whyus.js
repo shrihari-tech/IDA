@@ -30,7 +30,7 @@ function Whyus(){
             <div className="flexbox">
                 {cards.map((card)=>(
                 <div key={card.id}>
-                    <img src={card.design} alt={card.design} />
+                    <img src={card.design} alt={card.design} className="boxes" />
                     <p className="text">{card.text}</p>
                 </div>       
                 ))

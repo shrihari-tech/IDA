@@ -67,7 +67,7 @@ function Process(){
             <div className="flexBox_diamond">
                 {cards.map((card) => (
                     <div key={card.id} className="card">
-                        <img src={card.logo} alt={`Card ${card.id}`} />
+                        <img src={card.logo} alt={`Card ${card.id}`} className="card3" />
                     </div>
                 ))}
             </div>

@@ -24,10 +24,12 @@
     grid-template-columns: repeat(3,1fr);
     gap:10px;
     padding-top:190px;
+    max-width: 100%;
 }
 
 .project_cards{
     width: 382px;
+    max-width: 100%;
 }   
 
 .view{
@@ -53,6 +55,7 @@
     position: absolute;
     left:20px;
     padding-top:100px;
+    max-width:100%;
 }
 
 .intern{
