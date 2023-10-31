@@ -184,3 +184,22 @@
     font-weight: 700;
     line-height: 20px;
 }
+
+
+@media (max-width: 767px) {
+    .bg{
+        width:400%;
+    }
+    .gold23{
+        margin-left: 5%;
+    }
+
+    .award{
+        margin-left: 5%;
+        margin-top: 20px;
+    }
+
+    .des2{
+        padding-top: 450px;
+    }
+}

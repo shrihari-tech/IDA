@@ -21,12 +21,16 @@ function Whyus(){
             <div className="we">We</div>
             <div className="design_data">Design</div>
             <div className="animate">Animate Amaze</div>
-            <img src="anime.png" alt="anime" className="anime"/>
+            {/* <img src="anime.png" alt="anime" className="anime"/> */}
+            <video class="anime" autoPlay loop controls muted>
+                <source src="anime_video.mp4" type="video/mp4"/>
+            </video>
             <div className="creative">Creative</div>
             <div className="design">Design</div>
             <div className="outstadning">Outstanding</div>
             <div className="animation">Animation</div>
-            <img src="grass.png" alt="grass" className="grass"/>
+            {/* <img src="grass.png" alt="grass" className="grass"/> */}
+            <video src="grass_video.mp4" alt="grass" className="grass" controls muted />
             <div className="flexbox">
                 {cards.map((card)=>(
                 <div key={card.id}>

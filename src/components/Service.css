@@ -90,6 +90,24 @@
         max-width: fit-content;
         /* max-width: 100%; */
     }
+    .logoes{
+        position: absolute;
+        left:200%;
+    }
+
+    .text-overlay{
+        position: absolute;
+        left:190%;
+    }
+
+    .data_overlay{
+        position: absolute;
+        left:180%;
+    }
+    .cap{
+        position: absolute;
+        left:180%;
+    }
 }
 
 

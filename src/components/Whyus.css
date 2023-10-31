@@ -62,12 +62,13 @@
 }
 .anime{
     padding-top: 300px;
-    max-width: 100%;
+    max-width: 80%;
+    border-radius: 50px;
 }
 
 .grass{
     padding-top:150px;
-    max-width: 100%;
+    max-width:90%;
 }
 
 .flexbox{

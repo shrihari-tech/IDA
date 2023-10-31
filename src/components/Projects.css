@@ -142,3 +142,13 @@
     letter-spacing: 2px;
     cursor: pointer;
 }
+
+@media (max-width: 767px){
+    .color{
+        width: 400%;
+    }
+    .man{
+        padding-top: 260px;
+        max-width: 500px;
+    }
+}

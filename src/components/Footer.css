@@ -53,3 +53,12 @@
     left:250px;
     max-width: 100%;
 }
+
+@media (max-width: 767px) {
+    .footer_bg{
+        width: 400%;
+    }
+
+    
+
+}
