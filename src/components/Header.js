@@ -19,37 +19,91 @@ import {useState} from "react";
 
 // export default Header;
 
+// function Header() {
+//     const [menuOpen, setMenuOpen] = useState(false);
+
+//     const toggleMenu = () => {
+//         setMenuOpen(!menuOpen);
+//     };
+
+//     return (
+//         <div>
+//             <div className="navbar">
+//                 <img src="ida.png" alt="ida" className="logo" />
+//                 {menuOpen ? (
+//                     <div className="menu-icon" onClick={toggleMenu}>
+//                         &#10005; {/* Render a close icon when the menu is open */}
+//                     </div>
+//                 ) : (
+//                     <div className="menu-icon" onClick={toggleMenu}>
+//                         &#9776; {/* Render the hamburger icon when the menu is closed */}
+//                     </div>
+//                 )}
+//                 <ul className={menuOpen ? "nav-links active" : "nav-links"}>
+//                     <a href="#">WhyUs</a>
+//                     <a href="#">Service</a>
+//                     <a href="#">OurProcess</a>
+//                     <a href="#">Projects</a>
+//                     <a href="#">Awards</a>
+//                     <button className="login">Contact Us</button>
+//                 </ul>
+//             </div>
+//         </div>
+//     );
+// }
+
+// export default Header;
+
+
 function Header() {
-    const [menuOpen, setMenuOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-    const toggleMenu = () => {
-        setMenuOpen(!menuOpen);
-    };
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
 
-    return (
-        <div>
-            <div className="navbar">
-                <img src="ida.png" alt="ida" className="logo" />
-                {menuOpen ? (
-                    <div className="menu-icon" onClick={toggleMenu}>
-                        &#10005; {/* Render a close icon when the menu is open */}
-                    </div>
-                ) : (
-                    <div className="menu-icon" onClick={toggleMenu}>
-                        &#9776; {/* Render the hamburger icon when the menu is closed */}
-                    </div>
-                )}
-                <ul className={menuOpen ? "nav-links active" : "nav-links"}>
-                    <a href="#">WhyUs</a>
-                    <a href="#">Service</a>
-                    <a href="#">OurProcess</a>
-                    <a href="#">Projects</a>
-                    <a href="#">Awards</a>
-                    <button className="login">Contact Us</button>
-                </ul>
-            </div>
-        </div>
-    );
+  return (
+    <header className="navbar">
+      <div className="logo">
+        <img src="ida.png" alt="Logo" />
+      </div>
+      <div className={`menu ${isOpen ? "open" : ""}`}>
+        <ul className="nav-list">
+          <li className="nav-item">
+            <a href="#why-us" className="nav-button">
+              Why Us
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="#services" className="nav-button">
+              Services
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="#our-process" className="nav-button">
+              Our Process
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="#projects" className="nav-button">
+              Projects
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="#awards" className="nav-button">
+              Awards
+            </a>
+          </li>
+        </ul>
+      </div>
+      <button className="contact-button">Contact Us</button>
+      <div className={`menu-toggle ${isOpen ? "open" : ""}`} onClick={toggleMenu}>
+        <div className="bar"></div>
+        <div className="bar"></div>
+        <div className="bar"></div>
+      </div>
+    </header>
+  );
 }
 
 export default Header;

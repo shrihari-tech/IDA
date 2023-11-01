@@ -155,6 +155,8 @@
     .anime{
         padding-top: 450px;
         padding-left: 550px;
+        max-width: 180%;
+        margin-left: -90px;
     }
 
     .creative{
@@ -175,7 +177,10 @@
         padding-top: 20px;
     }
     .grass{
-        margin-left: 550px;
+        margin-left: 470px;
+        max-width: 190%;
+        border-radius: 50px;
+
     }
 
     .boxes{

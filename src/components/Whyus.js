@@ -30,7 +30,9 @@ function Whyus(){
             <div className="outstadning">Outstanding</div>
             <div className="animation">Animation</div>
             {/* <img src="grass.png" alt="grass" className="grass"/> */}
-            <video src="grass_video.mp4" alt="grass" className="grass" controls muted />
+            <video className="grass" autoPlay loop controls muted>
+                <source src="grass_video.mp4" type="video/mp4"></source>
+            </video>
             <div className="flexbox">
                 {cards.map((card)=>(
                 <div key={card.id}>
