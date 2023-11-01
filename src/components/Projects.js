@@ -34,7 +34,7 @@ function Projects(){
         },
     ])
     return(
-        <div>
+        <div id="projects">
             <div className="dark-section">
                 <div className="projects">Our Recent Projects</div>
                 <div className="project_sentence">Our recent projects showcase the diverse range of industries we serve, from entertainment and advertising to education and gaming.</div>

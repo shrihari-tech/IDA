@@ -2,7 +2,7 @@ import React from "react";
 import "./Awards.css";
 function Awards(){
     return(
-        <div>
+        <div id="awards">
             <div className="bg">
                 <div className="awards">Awards</div>
                 <div className="awards_sentance">Quality is not an act, it is a habit.</div>

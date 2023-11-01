@@ -17,12 +17,12 @@ function Whyus(){
         }
     ])
     return(
-        <div>
+        <div id="why-us">
             <div className="we">We</div>
             <div className="design_data">Design</div>
             <div className="animate">Animate Amaze</div>
             {/* <img src="anime.png" alt="anime" className="anime"/> */}
-            <video class="anime" autoPlay loop controls muted>
+            <video class="anime" autoPlay loop muted>
                 <source src="anime_video.mp4" type="video/mp4"/>
             </video>
             <div className="creative">Creative</div>
@@ -30,7 +30,7 @@ function Whyus(){
             <div className="outstadning">Outstanding</div>
             <div className="animation">Animation</div>
             {/* <img src="grass.png" alt="grass" className="grass"/> */}
-            <video className="grass" autoPlay loop controls muted>
+            <video className="grass" autoPlay loop  muted>
                 <source src="grass_video.mp4" type="video/mp4"></source>
             </video>
             <div className="flexbox">

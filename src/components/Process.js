@@ -59,7 +59,7 @@ function Process(){
         }
     ])
     return(
-        <div className="dark-section">
+        <div className="dark-section" id="our-process">
             <div className="ourprocess">OUR PROCESS </div>
             <div className="working">Working Process </div>
             <div className="sentence">A well-structured workflow with great design execution.</div>

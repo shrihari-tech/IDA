@@ -45,7 +45,7 @@ function Service(){
 
     ])
     return(
-        <div className="service-container">
+        <div className="service-container" id="services">
             <img src="darkbg.png" alt="darkbg" className="darkbg"></img>
             <div className="text-overlay">The service <br/>we provide        
             </div>
