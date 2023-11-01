@@ -97,7 +97,7 @@ function Header() {
           </li>
         </ul>
       </div>
-      <button className="contact-button">Contact Us</button>
+      <a className="contact-button" href="#footer">Contact Us</a>
       <div className={`menu-toggle ${isOpen ? "open" : ""}`} onClick={toggleMenu}>
         <div className="bar"></div>
         <div className="bar"></div>

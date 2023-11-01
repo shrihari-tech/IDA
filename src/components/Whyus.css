@@ -69,7 +69,10 @@
 .grass{
     padding-top:150px;
     max-width:90%;
+    border-radius: 50px;
+    border-top: 50px;
 }
+
 
 .flexbox{
     padding-top:85px;

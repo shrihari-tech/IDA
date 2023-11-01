@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.css";
 function Footer(){
     return(
-        <div>
+        <div id="footer">
             <div className="footer_bg">
                 <img src="ida_footer.png" alt="footer_ida" className="ida_footer"></img>
                 <ul class="services">Services
