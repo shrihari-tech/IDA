@@ -1,6 +1,8 @@
 import React from "react";
 import './Header.css';
 import {useState} from "react";
+import { Link } from 'react-router-dom';
+
 // function Header(){
 //     return(
 //         <div>
@@ -91,9 +93,12 @@ function Header() {
             </a>
           </li>
           <li className="nav-item">
-            <a href="#awards" className="nav-button">
-              Awards
+            <a href="/BlogList" className="nav-button">
+              Blogs
             </a>
+            {/* <Link to="/BlogList" className="nav-button">
+                Blogs
+            </Link> */}
           </li>
         </ul>
       </div>
