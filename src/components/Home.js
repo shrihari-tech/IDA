@@ -13,7 +13,7 @@ function Home() {
         <Service />
         <Process />
         <Projects />
-        <Footer/>
+        {/* <Footer/> */}
       </div>
     );
   }

@@ -88,14 +88,20 @@ function Header() {
             </a>
           </li>
           <li className="nav-item">
+            <a href="/About" className="nav-button">
+              About
+            </a>
+          </li>
+          <li className="nav-item">
             <a href="#projects" className="nav-button">
               Projects
             </a>
           </li>
           <li className="nav-item">
             <a href="/BlogList" className="nav-button">
-              Blogs
+              Blog
             </a>
+
             {/* <Link to="/BlogList" className="nav-button">
                 Blogs
             </Link> */}

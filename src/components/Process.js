@@ -30,7 +30,7 @@ function Process(){
         {
             id:3,
             logo:"diamond.png",
-            text:"Print"
+            text:"3D Printing"
         },
         {
             id:4,
@@ -71,14 +71,14 @@ function Process(){
                     </div>
                 ))}
             </div>
-            <div className="flexData">
+            {/* <div className="flexData">
                 {datas.map((data)=>(
                     <div>
                         <img src={data.logo} alt={`Data ${data.id}`}/>
                         <p>{data.text}</p>
                     </div>
                 ))}
-            </div>
+            </div> */}
         </div>
     );
 }

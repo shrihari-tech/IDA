@@ -35,7 +35,7 @@ function Projects(){
     ])
     return(
         <div id="projects">
-            <div className="dark-section">
+            <div className="dark-section1">
                 <div className="projects">Our Recent Projects</div>
                 <div className="project_sentence">Our recent projects showcase the diverse range of industries we serve, from entertainment and advertising to education and gaming.</div>
                 <div className="project-list">
@@ -54,7 +54,7 @@ function Projects(){
                     <div className="para">Are you passionate about animation<br/> and eager to kick-start your career<br/>in the industry? Join our dynamic <br/>team through our internship<br/> program. At  IDA , we believe in<br/>
                         nurturing talent and providing<br/> hands-on experience in the exciting <br/>world of animation.
                      </div>
-                     <button className="explore">Explore</button>
+                     {/* <button className="explore">Explore</button> */}
                      <button className="apply">Apply Now</button>
                 </div>
             </div>

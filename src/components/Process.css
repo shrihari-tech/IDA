@@ -1,6 +1,6 @@
 .dark-section {
     background-color: #1E2026; 
-    height: 1200px;
+    height: 850px;
 }
 
 .ourprocess{
@@ -44,13 +44,13 @@
     padding-top: 300px;
 }
 
-.flexData{
+/* .flexData{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     padding-top: 100px;
     color: white;
     font-size: 20px;
-}
+} */
 
 .card3{
     max-width: 100%;

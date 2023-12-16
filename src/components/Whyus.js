@@ -33,7 +33,7 @@ function Whyus(){
             <video className="grass" autoPlay loop  muted>
                 <source src="grass_video.mp4" type="video/mp4"></source>
             </video>
-            <div className="flexbox">
+            {/* <div className="flexbox">
                 {cards.map((card)=>(
                 <div key={card.id}>
                     <img src={card.design} alt={card.design} className="boxes" />
@@ -41,7 +41,7 @@ function Whyus(){
                 </div>       
                 ))
             }
-            </div>
+            </div> */}
         </div>
     )
 }

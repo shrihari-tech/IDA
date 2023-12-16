@@ -1,6 +1,7 @@
 .darkbg{
     width:1536px;
     max-width: 100%;
+    height:1200px;
 }
 
 .service-container {
@@ -9,7 +10,7 @@
 
 .text-overlay {
     position: absolute;
-    top: 20%; 
+    top: 15%; 
     left: 15%; 
     transform: translate(-50%, -50%);
     font-family: 'Plus Jakarta Sans';
@@ -22,7 +23,7 @@
 
 .data_overlay {
     position: absolute;
-    top: 200px; 
+    top: 180px; 
     left: 55%; 
     transform: translate(-50%, -50%);
     color: white; 
@@ -48,9 +49,23 @@
     gap: 150px;
 }
 
+.flexData{
+    position: absolute;
+    top: 950px; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: white; 
+    padding: 10px; 
+    font-size: 20px;
+    text-align: center;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 150px;
+}
+
 .cap{
     position: absolute;
-    top: 30%; 
+    top: 25%; 
     left: 55%; 
     transform: translate(-50%, -50%);
     font-family: 'Plus Jakarta Sans';

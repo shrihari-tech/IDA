@@ -1,6 +1,28 @@
 import React, { useState } from "react";
 import "./Service.css";
 function Service(){
+    const [datas,SetData]=useState([
+        {
+            id:1,
+            logo:"diamond.png",
+            text:"Animation & Rigging "
+        },
+        {
+            id:2,
+            logo:"diamond.png",
+            text:"Webdesign"
+        },
+        {
+            id:3,
+            logo:"diamond.png",
+            text:"3D Printing"
+        },
+        {
+            id:4,
+            logo:"diamond.png",
+            text:"Illustration"
+        }
+    ])
     const [badges,setBadge]=useState([
         {
             id:1,
@@ -51,12 +73,20 @@ function Service(){
             </div>
             <div className="data_overlay">Unleash your creativity and let your imagination soar<br/> with our world-class animation services and expert team.
             </div>
-            <div className="cap">Captivating stories come to life through our animations, making every moment an unforgettable visual experience</div>
+            {/* <div className="cap">Captivating stories come to life through our animations, making every moment an unforgettable visual experience</div> */}
             <div className="logoes">
                 {badges.map((badge) => (
                     <div key={badge.id} className="badge" style={badge.position}>
                         <img src={badge.logo} alt={badge.text} className="badge-logo" />
                         <div className="badge-text">{badge.text}</div>
+                    </div>
+                ))}
+            </div>
+            <div className="flexData">
+                {datas.map((data)=>(
+                    <div>
+                        <img src={data.logo} alt={`Data ${data.id}`}/>
+                        <p>{data.text}</p>
                     </div>
                 ))}
             </div>

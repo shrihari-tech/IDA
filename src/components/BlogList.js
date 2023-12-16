@@ -8,7 +8,7 @@ function BlogList(){
             id:1,
             image:"AR.png",
             name:"WHAT IS VIRTUAL REALITY?",
-            text:"Virtual reality (VR) is a computer-generated simulation of a 3D environment that you can interact with in a realistic way using specialized equipment like VR headsets, gloves with sensors, and handheld controllers. Furthermore, the objective of VR is to provide an immersive, believable experience that allows the user to fully engage and interact with the virtual world, suspending disbelief and perceiving it as real.",
+            text:"Virtual reality (VR) is a computer-generated simulation of a 3D environment that you can interact with in a realistic way using specialized equipment like VR headsets, gloves with sensors, and handheld controllers. Furthermore, the objective of VR is to provide an immersive.",
             link:"https://medium.com/tag/ukraine-war"
         },
         {
@@ -21,7 +21,7 @@ function BlogList(){
         {
             id:3,
             image:"Application.png",
-            name:"APPLICATIONS OF VIRTUAL REALITY TRAINING ",
+            name:"APPLICATIONS OF VR",
             text:"Immersive Training with Virtual Reality is the field of training and education, providing users with an unparalleled level of immersion and interaction. Through its realistic environments, VR training delivers a new dimension of engagement and efficacy. Some of the applications of Virtual Reality Training.",
             link:"https://medium.com/swlh/all-you-need-to-know-about-5g-4c3fc6ad7124"
         },

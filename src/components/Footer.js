@@ -11,11 +11,11 @@ function Footer(){
                     <li class="service-item">AR/VR Modeling</li>
                     <li class="service-item">Design</li>
                 </ul>
-                <ul className="support">Support
+                {/* <ul className="support">Support
                     <li className="support-item">Customer Service</li>
                     <li className="support-item">FAQ</li>
                     <li className="support-item">Contact Us</li>
-                </ul>
+                </ul> */}
                 <ul className="Company">Company
                     <li className="company-item">About Us</li>
                 </ul>

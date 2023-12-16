@@ -2,7 +2,7 @@
 
 .we{
     padding-top: 30px;
-    font-size: 96px;
+    font-size: 56px;
     position: absolute;
     left: 145px;
     font-weight: 10;
@@ -10,18 +10,18 @@
 }
 
 .design_data{
-    padding-top:45px;
-    font-size: 96px;
+    padding-top:40px;
+    font-size: 56px;
     position: absolute;
-    left: 305px;
+    left: 245px;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 80px;
 }
 .animate{
     margin-top: 75px;
-    font-size: 96px;
+    font-size: 56px;
     position: absolute;
-    padding-top: 75px;
+    padding-top: 35px;
     left: 145px;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 80px;
