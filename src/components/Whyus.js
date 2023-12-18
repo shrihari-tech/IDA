@@ -22,17 +22,20 @@ function Whyus(){
             <div className="design_data">Design</div>
             <div className="animate">Animate Amaze</div>
             {/* <img src="anime.png" alt="anime" className="anime"/> */}
-            <video class="anime" autoPlay loop muted>
-                <source src="anime_video.mp4" type="video/mp4"/>
-            </video>
-            <div className="creative">Creative</div>
+            <div className="videos">
+                <video class="anime" autoPlay loop muted>
+                    <source src="anime_video.mp4" type="video/mp4"/>
+                </video>
+                <video className="grass" autoPlay loop  muted>
+                    <source src="grass_video.mp4" type="video/mp4"></source>
+                </video>
+            </div>
+            {/* <div className="creative">Creative</div>
             <div className="design">Design</div>
             <div className="outstadning">Outstanding</div>
-            <div className="animation">Animation</div>
+            <div className="animation">Animation</div> */}
             {/* <img src="grass.png" alt="grass" className="grass"/> */}
-            <video className="grass" autoPlay loop  muted>
-                <source src="grass_video.mp4" type="video/mp4"></source>
-            </video>
+
             {/* <div className="flexbox">
                 {cards.map((card)=>(
                 <div key={card.id}>

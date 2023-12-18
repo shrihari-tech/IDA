@@ -61,18 +61,23 @@
     font-weight: 20;
 }
 .anime{
-    padding-top: 300px;
+    padding-top: 200px;
     max-width: 80%;
     border-radius: 50px;
 }
 
 .grass{
-    padding-top:150px;
-    max-width:90%;
+    padding-top:200px;
+    max-width:80%;
     border-radius: 50px;
     border-top: 50px;
 }
 
+.videos{
+    display: grid;
+    grid-template-columns: repeat(2,5fr);
+    margin-left: 130px;
+}
 
 .flexbox{
     padding-top:85px;
@@ -195,6 +200,18 @@
     .text{
         margin-left: 350px;
         font-size: 50px;
+    }
+
+    .anime,
+    .grass {
+        padding-top: 100px;
+        max-width: 100%;
+        border-radius: 20px;
+    }
+
+    .videos {
+        grid-template-columns: 1fr; /* Change to a single column for smaller screens */
+        margin-left: 0; /* Remove left margin for smaller screens */
     }
 
 }
